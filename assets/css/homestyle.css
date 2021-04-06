@@ -31,6 +31,10 @@ button.white-box {
 
 
 /* Portfolio List Items */
+.hide-portfolio {
+  display: none;
+}
+
 ul {
     list-style-type: none;
     display: block;
@@ -60,6 +64,7 @@ a:active {
 
 img{
   height: 250px;
+  padding: 10px;
 }
 /* Portfolio List Items */
 
