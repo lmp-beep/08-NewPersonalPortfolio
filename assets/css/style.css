@@ -1,7 +1,7 @@
 
 :root {
-  /* background-color: #cac8c8; */
-  background-color: #E55F93;
+  background-color: #ffffff;
+  /* background-color: #E55F93; */
 }
 
 .shadow {
@@ -17,11 +17,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 50vw;
     margin-top: 0;
-    /* background-color: #cac8c8; */
-    background-color: #af3162;
+    background-color: #cac8c8;
+    /* background-color: #af3162; */
     color: transparent;
-    /* text-shadow: 5px 2px 10px rgba(255, 255, 255, 0.8); */
-    text-shadow: 5px 2px 10px #E55F93;
+    text-shadow: 5px 2px 10px rgba(255, 255, 255, 0.8);
+    /* text-shadow: 5px 2px 10px #E55F93; */
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -30,8 +30,8 @@
   
 .shadow:hover {
     transition: all 0.1s ease;
-    /* text-shadow: var(--x-shadow) var(--y-shadow) 8px rgba(255, 255, 255, 0.8); */
-    text-shadow: var(--x-shadow) var(--y-shadow) 8px #E55F93;
+    text-shadow: var(--x-shadow) var(--y-shadow) 8px rgba(255, 255, 255, 0.8);
+    /* text-shadow: var(--x-shadow) var(--y-shadow) 8px #E55F93; */
   }
   
 .shadow p {

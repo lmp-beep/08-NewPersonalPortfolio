@@ -1,7 +1,6 @@
 
 body {
     background-color: #2A5799;
-
 }
 
 
@@ -34,6 +33,7 @@ button.white-box {
 
 ul {
     list-style-type: none;
+    display: block;
 }
 
 a {
@@ -43,20 +43,24 @@ a {
 
 a:link {
     text-decoration: none;
-  }
+}
   
-  a:visited {
+a:visited {
     text-decoration: none;
-  }
+}
   
-  a:hover {
+a:hover {
     text-decoration: none;
     color: black;
-  }
+}
   
-  a:active {
+a:active {
     text-decoration: none;
-  }
+}
+
+#portfolio-text {
+  display: block !important;
+}  
 
 /* .col-4, .col-8 {
     border: 1px black solid;
