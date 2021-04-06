@@ -8,9 +8,14 @@ var contactBtn = document.getElementById("contact-button");
 
 
 // Click function to display portfolio items
-// Hides About and Contact
 portfolioBtn.addEventListener("click", function() {
     console.log("what up portfolio");
+    // Changes background color at 500ms transition duration
+    document.getElementById("body").style.backgroundColor = "#00BDA9";
+    document.getElementById("container").style.backgroundColor = "#00BDA9";
+    document.getElementById("body").style.transitionDuration = "500ms";
+    document.getElementById("container").style.transitionDuration = "500ms";
+    // Hides About and Contact
     document.getElementById("contact-me").innerHTML = "";
     document.getElementById("about-me").innerHTML = "";
     var portfolioText = document.getElementById("portfolio-text");
@@ -48,11 +53,16 @@ portfolioBtn.addEventListener("click", function() {
   
 
   // Click function to display About Me info
-  // Hides Portfolio and Contact
   aboutBtn.addEventListener("click", function() {
     console.log("what up about me");
     var aboutMe = document.getElementById("about-me");
     aboutMe.innerHTML = "About Me";
+    // Changes background color at 500ms transition duration
+    document.getElementById("body").style.backgroundColor = "#F19571";
+    document.getElementById("container").style.backgroundColor = "#F19571";
+    document.getElementById("body").style.transitionDuration = "500ms";
+    document.getElementById("container").style.transitionDuration = "500ms";
+    // Hides Portfolio and Contact
     document.getElementById("portfolio1").innerHTML = "";
     document.getElementById("portfolio2").innerHTML = "";
     document.getElementById("portfolio3").innerHTML = "";
@@ -63,11 +73,16 @@ portfolioBtn.addEventListener("click", function() {
 
 
   // Click function to display Contact Me form
-  // Hides Portfolio and About
   contactBtn.addEventListener("click", function() {
     console.log("what up contact me");
     var contactMe = document.getElementById("contact-me");
     contactMe.innerHTML = "Contact Me";
+    // Changes background color at 500ms transition duration
+    document.getElementById("body").style.backgroundColor = "#E55F93";
+    document.getElementById("container").style.backgroundColor = "#E55F93";
+    document.getElementById("body").style.transitionDuration = "500ms";
+    document.getElementById("container").style.transitionDuration = "500ms";
+    // Hides Portfolio and About
     document.getElementById("portfolio1").innerHTML = "";
     document.getElementById("portfolio2").innerHTML = "";
     document.getElementById("portfolio3").innerHTML = "";

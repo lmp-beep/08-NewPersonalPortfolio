@@ -3,9 +3,22 @@ body {
     background-color: #2A5799;
 }
 
+/* .portfolio-color {
+  background-color: aqua !important;
+}
+
+.about-color {
+  background-color: blueviolet !important;
+}
+
+.contact-color {
+  background-color: crimson !important;
+} */
+
 
 button.white-box {
     background-color: white;
+    box-shadow: 2px 0px 2px;
     color: black;
     /* width: auto; */
     width: 400px;
@@ -19,13 +32,16 @@ button.white-box {
     padding: 25px;
     border: none;
     outline: none;
+    /* transition: 5s ease 0s; */
 }
+
+
 
 .col-8 {
     padding-left: 200px;
 }
 
-.container {
+#container {
    padding-top: 8%;
    /* padding-left: 5%; */
    background-color: #2A5799;
@@ -62,9 +78,7 @@ a:active {
   display: block !important;
 }  
 
-/* .col-4, .col-8 {
-    border: 1px black solid;
-} */
+
 
 /* .white-box {
     --x-shadow: 0;
