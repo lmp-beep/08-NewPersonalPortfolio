@@ -1,26 +1,11 @@
 
 body {
-    background-color: #2A5799;
+    background-color: #E55F93;
 }
-
-/* .portfolio-color {
-  background-color: aqua !important;
-}
-
-.about-color {
-  background-color: blueviolet !important;
-}
-
-.contact-color {
-  background-color: crimson !important;
-} */
-
 
 button.white-box {
     background-color: white;
-    box-shadow: 2px 0px 2px;
-    color: black;
-    /* width: auto; */
+    /* box-shadow: 12px 10px 2px black; */
     width: 400px;
     height: auto;
     text-align: center;
@@ -32,10 +17,7 @@ button.white-box {
     padding: 25px;
     border: none;
     outline: none;
-    /* transition: 5s ease 0s; */
 }
-
-
 
 .col-8 {
     padding-left: 200px;
@@ -43,10 +25,12 @@ button.white-box {
 
 #container {
    padding-top: 8%;
-   /* padding-left: 5%; */
-   background-color: #2A5799;
+   background-color: #E55F93;
 }
 
+
+
+/* Portfolio List Items */
 ul {
     list-style-type: none;
     display: block;
@@ -74,9 +58,83 @@ a:active {
     text-decoration: none;
 }
 
-#portfolio-text {
-  display: block !important;
-}  
+img{
+  height: 250px;
+}
+/* Portfolio List Items */
+
+
+
+/* Contact Me Form */
+.hide {
+  display: none;
+}
+
+.card {
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.form-header {
+  height: 75px;
+  background-color: #82B1FF;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow: 2px 2px 6px rgb(145, 145, 145);
+}
+
+.fas.fa-envelope {
+  color: #ffffff;
+}
+
+i {
+  color: #9E9E9E;
+}
+
+label {
+  color: #9E9E9E;
+}
+
+input[type="text"],
+select.form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #9E9E9E;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+input[type="text"]:focus,
+select.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+::placeholder {
+  font-family: FontAwesome; 
+}
+
+textarea:focus {
+  box-shadow: none !important;
+  border-color: #9E9E9E !important;
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #82B1FF;
+  height: 50px;
+  width: 100px;
+  border: none !important;
+  box-shadow: 2px 2px 6px rgb(145, 145, 145);
+}
+
+.submit-button:focus {
+  outline: none;
+}
+/* Contact Me Form */
+
 
 
 
