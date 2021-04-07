@@ -10,8 +10,9 @@
     --x:50%;
     --y:50%;
     /* font-size: 15rem; */
+    transform: translateY(0%);
     transition: all 0.2s ease;
-    position: relative;
+    position: absolute
     padding: 2rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -50,8 +51,8 @@
 
 .container {
     /* position: absolute; */
-    top: 25px;
-    left: 25px;
+    /* top: 25px;
+    left: 25px; */
   }
 
 h1.shadow {
@@ -59,15 +60,31 @@ h1.shadow {
     margin-top: 0;
     z-index: 1;
   }
+
+  .container {
+    left:0;
+    right:0;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: absolute;
+    width: 100%;
+  
+    /* outline: 1px solid black;
+    background: white; */
+  }
   
 #logo {
     display: block;
-    margin-left: auto;
+    margin-left: 19%;
     margin-right: auto;
     width: 50%;
     z-index: 3;
     /* margin-top: 50%; */
-    /* position: relative; */
+    position: absolute;
+    transform: translateY(150%);
+    /* padding-left: 30%; */
     /* top: 0; */
     /* left: 0; */
   }
@@ -80,7 +97,12 @@ a {
   }
 
 h2#enter {
-    text-align: right;
-    padding-right: 50px;
+    /* text-align: right; */
+    /* padding-right: 50px; */
     text-decoration: none;
+    margin-top: 400px;
+    margin-left: 90%;
+    position: absolute;
+    z-index: 10;
+    /* transform: translateY(180%); */
   }
