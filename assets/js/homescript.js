@@ -6,6 +6,7 @@ var aboutBtn = document.getElementById("about-button");
 var contactBtn = document.getElementById("contact-button");
 var contactMeCard = document.querySelector(".hide");
 var portfolioImages = document.querySelector(".hide-portfolio");
+// var footerText = document.querySelectorAll(".footer-text");
 
 
 // Click function to display portfolio items

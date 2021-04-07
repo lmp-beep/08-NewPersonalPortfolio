@@ -35,7 +35,7 @@
   }
   
 .shadow p {
-    position: absolute;
+    /* position: absolute; */
     max-height: 100vh;
     /* top: 2rem;
     left: 2rem;
@@ -49,13 +49,15 @@
   }
 
 .container {
-    position: absolute;
+    /* position: absolute; */
     top: 25px;
     left: 25px;
   }
 
 h1.shadow {
     box-shadow: none !important;
+    margin-top: 0;
+    z-index: 1;
   }
   
 #logo {
@@ -64,9 +66,10 @@ h1.shadow {
     margin-right: auto;
     width: 50%;
     z-index: 3;
-    position: relative;
-    top: 0;
-    left: 0;
+    /* margin-top: 50%; */
+    /* position: relative; */
+    /* top: 0; */
+    /* left: 0; */
   }
 
 a {

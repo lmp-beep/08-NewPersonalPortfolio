@@ -1,6 +1,12 @@
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
     background-color: #E55F93;
+    margin-bottom: 100px; /* Margin bottom by footer height */
 }
 
 button.white-box {
@@ -65,6 +71,7 @@ a:active {
 img{
   height: 250px;
   padding: 10px;
+  margin-right: 0;
 }
 /* Portfolio List Items */
 
@@ -139,6 +146,42 @@ textarea:focus {
   outline: none;
 }
 /* Contact Me Form */
+
+
+
+/* Footer */
+.footer-text {
+  color: rgb(158, 157, 157);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding-left: 45px;
+}
+
+.footer-text:hover {
+  color: rgb(100, 100, 100);
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+
+.footer {
+  /* position: fixed; */
+  /* margin-bottom: 1%; */
+  width: 100%; 
+  height: 100px;
+  line-height: 80px; /* Vertically center the text there */
+  background-color: #ffffff;
+  /* mix-blend-mode: screen;
+    
+    font-size: 20px;
+    
+    padding: 25px;
+    border: none;
+    outline: none; */
+}
+/* Footer */
 
 
 
