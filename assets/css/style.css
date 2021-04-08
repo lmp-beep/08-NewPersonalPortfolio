@@ -59,6 +59,7 @@ h1.shadow {
     box-shadow: none !important;
     margin-top: 0;
     z-index: 1;
+    transform: translateY(-5%);
   }
 
   .container {
@@ -83,7 +84,7 @@ h1.shadow {
     z-index: 3;
     /* margin-top: 50%; */
     position: absolute;
-    transform: translateY(150%);
+    transform: translateY(140%);
     /* padding-left: 30%; */
     /* top: 0; */
     /* left: 0; */
@@ -100,7 +101,7 @@ h2#enter {
     /* text-align: right; */
     /* padding-right: 50px; */
     text-decoration: none;
-    margin-top: 400px;
+    margin-top: 320px;
     margin-left: 90%;
     position: absolute;
     z-index: 10;

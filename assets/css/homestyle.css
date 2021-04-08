@@ -12,21 +12,17 @@ body {
 button.white-box {
     background-color: white;
     /* box-shadow: 12px 10px 2px black; */
-    width: 400px;
+    width: 500px;
     height: auto;
     text-align: center;
     mix-blend-mode: screen;
     top: 50%; /* Position text in the middle */
     left: 50%; /* Position text in the middle */
-    font-size: 60px;
+    font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     padding: 25px;
     border: none;
     outline: none;
-}
-
-.col-8 {
-    padding-left: 200px;
 }
 
 #container {
@@ -82,8 +78,6 @@ img{
 #about-me-text {
   font-family: 'Raleway', sans-serif;
 }
-
-
 /* About Me Items */
 
 
