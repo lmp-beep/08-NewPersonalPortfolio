@@ -1,3 +1,4 @@
+
 console.log("hello");
 
 
@@ -6,7 +7,9 @@ var aboutBtn = document.getElementById("about-button");
 var contactBtn = document.getElementById("contact-button");
 var contactMeCard = document.querySelector(".hide");
 var portfolioImages = document.querySelector(".hide-portfolio");
-// var footerText = document.querySelectorAll(".footer-text");
+var aboutMeText = document.getElementById("about-me-text");
+var framePhoto = document.getElementById("frame-photo");
+
 
 
 // Click function to display portfolio items
@@ -17,14 +20,15 @@ portfolioBtn.addEventListener("click", function() {
     document.getElementById("container").style.backgroundColor = "#00BDA9";
     document.getElementById("body").style.transitionDuration = "500ms";
     document.getElementById("container").style.transitionDuration = "500ms";
-    // Hides About and Contact
-    contactMeCard.classList.add("hide");
-    document.getElementById("contact-me").innerHTML = "";
-    document.getElementById("about-me").innerHTML = "";
     // Shows Portfolio Images
     portfolioImages.classList.remove("hide-portfolio");
-
-
+    // Hides About and Contact
+    contactMeCard.classList.add("hide");
+    aboutMeText.innerHTML = "";
+    document.getElementById('about-me').removeChild(framePhoto);
+    // Shows Portfolio Images
+    portfolioImages.classList.remove("hide-portfolio");
+    
     // var portfolioText = document.getElementById("portfolio-text");
 
     // var portfolio1 = document.getElementById("portfolio1");
@@ -86,8 +90,6 @@ portfolioBtn.addEventListener("click", function() {
   // Click function to display About Me info
   aboutBtn.addEventListener("click", function() {
     console.log("what up about me");
-    var aboutMe = document.getElementById("about-me");
-    aboutMe.innerHTML = "About Me";
     // Changes background color at 500ms transition duration
     document.getElementById("body").style.backgroundColor = "#F19571";
     document.getElementById("container").style.backgroundColor = "#F19571";
@@ -96,6 +98,13 @@ portfolioBtn.addEventListener("click", function() {
     // Hides Portfolio and Contact
     contactMeCard.classList.add("hide");
     portfolioImages.classList.add("hide-portfolio");
+    // Shows About Me framed photo
+    framePhoto.src = "./assets/images/frame.png";
+    document.getElementById('about-me').appendChild(framePhoto);
+    framePhoto.style.width = "420px";
+    framePhoto.style.height = "500px";
+    // Shows About Me text
+    aboutMeText.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis incidunt fugiat inventore fuga in dolor, similique deserunt voluptatum molestias vitae consectetur, exercitationem voluptatem ab tempora quos necessitatibus nulla beatae doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab totam nobis sint exercitationem repudiandae, nisi at aperiam fugit quam nulla eum eius minus obcaecati minima. Eligendi nisi eos dolores eum."
   })
 
 
@@ -103,7 +112,7 @@ portfolioBtn.addEventListener("click", function() {
   contactBtn.addEventListener("click", function() {
     console.log("what up contact me");
     var contactMe = document.getElementById("contact-me");
-    // Shows Contact Me Card
+    portfolioImages.classList.add("hide-portfolio");
     contactMeCard.classList.remove("hide");
     // Changes background color at 500ms transition duration
     document.getElementById("body").style.backgroundColor = "#2A5799";
@@ -111,6 +120,9 @@ portfolioBtn.addEventListener("click", function() {
     document.getElementById("body").style.transitionDuration = "500ms";
     document.getElementById("container").style.transitionDuration = "500ms";
     // Hides Portfolio and About
-    document.getElementById("about-me").innerHTML = "";
+    aboutMeText.innerHTML = "";
+    document.getElementById('about-me').removeChild(framePhoto);
     portfolioImages.classList.add("hide-portfolio");
+    // Shows Contact Me Card
+    contactMeCard.classList.remove("hide");
   })
