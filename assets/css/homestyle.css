@@ -23,33 +23,22 @@
   margin: 0;
 }
 
-body {
-  background-image: url("/assets/images/HeaderImageBig.png");
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover; 
-}
-
 .myLogo {
-  width: 60%;
-  padding-top: 50px;
-  margin-left: 15%;
+  width: 25%;
+  margin-left: 12%;
 }
 
-.navbar {
-  background-image: none;
+header {
+  padding-top: 50px;
 }
 
 a.navbar {
   text-decoration: none;
   color: #5d5c5d;
-  padding: 20px 40px;
-  font-size: 24px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  display: inline-block;
-  /* text-align: center; */
-  letter-spacing: 20px;
+  font-weight: 300;
+  letter-spacing: 10px;
 }
 
 a.navbar:hover {
@@ -57,39 +46,76 @@ a.navbar:hover {
   text-decoration: none;
 }
 
-/* .footer-text {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  display: inline-block;
-} */
-
-footer {
-  height: 150px;
-  background-color: #a3a3a3;
-  /* display: inline-block; */
-  color: white;
-  font-family: "Raleway", sans-serif;
-  font-weight: lighter;
-  list-style-type: none;
+.main {
+  margin-left: 100px;
 }
 
 #github {
   text-decoration: none;
-  color: white;
-  font-size: 26px;
+  height: 100px;
+  opacity: 20%;
+  padding: 30px 0px;
+}
+
+#github:hover {
+  opacity: 60%;
 }
 
 #linkedin {
   text-decoration: none;
-  color: white;
-  font-size: 24px;
+  height: 100px;
+  opacity: 20%;
+  padding: 30px 0px;
+}
+
+#linkedin:hover {
+  opacity: 60%;
+}
+
+#photo {
+  text-decoration: none;
+  height: 100px;
+  opacity: 20%;
+  padding: 30px 0px;
+}
+
+#photo:hover {
+  opacity: 60%;
+}
+
+#up-arrow {
+  text-decoration: none;
+  height: 100px;
+  opacity: 20%;
+  padding: 30px 0px;
+}
+
+#up-arrow:hover {
+  opacity: 60%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 300px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
 }
 
 #copyright {
   text-decoration: none;
-  color: white;
+  color: #8b8b8b;
   font-size: 12px;
-  padding-top: 5px;
+  margin-left: 130px;
 }
 
 /* ---------------------------PORTFOLIO--------------------------- */
@@ -98,7 +124,7 @@ footer {
 }
 
 .portfolio.col-sm-6.col-md-4 {
-  border: #5d5c5d 1px solid;
+  /* border: #5d5c5d 1px solid; */
   height: 500px;
 }
 
@@ -111,8 +137,12 @@ footer {
   height: 500px;
 }
 
-p {
-  margin-top: 50%;
+.bio {
+  margin-left: 10%;
+}
+
+#bio {
+  margin-top: 10%;
 }
 
 /* ---------------------------CONTACT--------------------------- */
@@ -122,7 +152,7 @@ p {
 
 .container-fluid.contact {
   padding-left: 25%;
-  padding-bottom: 100px;
+  /* padding-bottom: 80px; */
 }
 
 .card {
