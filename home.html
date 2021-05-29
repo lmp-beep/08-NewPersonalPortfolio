@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap" rel="stylesheet">
     <link href="assets/css/homestyle.css" rel="stylesheet">
     
   </head>
@@ -24,7 +25,7 @@
 
   <header>
     <div class="row">
-      <img class="myLogo" src="assets/images/LPlogo.png">
+      <a href="index.html"><img class="myLogo" src="assets/images/LPlogo.png"></a>
       <div class="navbar">
         <ul>
           <a class="navbar" id="portfolio" href="#Portfolio">PORTFOLIO</a>
@@ -47,33 +48,62 @@
 
     <div class="main">
 
+      
+        <div class="grid">
+          <div class="row hide-portfolio">
+            <figure class="effect-bubba">
+              <img src="./assets/images/portfolio/ExteriorFrontVertical-SQUARE.png" id="va-sharepoint"/>
+              <a href="/html/atlVA.html"><figcaption>
+                  <h2>MEDICAL MEDIA SHAREPOINT</h2>
+                </figcaption></a>    
+            </figure>
+            <figure class="effect-bubba">
+              <img src="/assets/images/portfolio/placeholder.png"/>
+              <a href="/html/myPhotos.html"><figcaption>
+                  <h2>LISA PESSIN PHOTOGRAPHY</h2>
+                </figcaption></a>      
+            </figure>
+            <figure class="effect-bubba">
+              <img src="/assets/images/portfolio/placeholder.png"/>
+              <a href="/html/newsflash.html"><figcaption>
+                  <h2>NEWS FLASH</h2>
+                </figcaption></a>      
+            </figure>
+            <figure class="effect-bubba">
+              <img src="/assets/images/portfolio/placeholder.png"/>
+              <a href=""><figcaption>
+                  <h2>TECH BLOG</h2>
+                </figcaption></a>      
+            </figure>
+          </div>
+        
+
+     
+
     <!-- PORTFOLIO SECTION -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row hide-portfolio">
         <div class="portfolio col-sm-6 col-md-4">
-          <a href="html/atlVA.html"><img src="./assets/images/portfolio/ExteriorFrontVertical-WebSize.png" class="inner" id="va-sharepoint"></img></a>
+          <a href="html/atlVA.html"><img src="./assets/images/portfolio/ExteriorFrontVertical-WebSize.png" class="inner" id="va-sharepoint" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
         <div class="portfolio col-sm-6 col-md-4">
-          <a href="/html/myPhotos.html"><img src="assets/images/portfolio/myPhotos.png" class="inner" id="my-photos"></img></a>
+          <a href="/html/myPhotos.html"><img src="assets/images/portfolio/myPhotos.png" class="inner" id="my-photos" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
         <div class="portfolio col-sm-6 col-md-4">
-          <a href="/html/newsflash.html"><img src="assets/images/portfolio/newsFlash.png" class="inner" id="news-flash"></img></a>
+          <a href="/html/newsflash.html"><img src="assets/images/portfolio/newsFlash.png" class="inner" id="news-flash" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
 
         <div class="portfolio col-sm-6 col-md-4">
-          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id=""></img></a>
+          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id="" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
         <div class="portfolio col-sm-6 col-md-4">
-          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id=""></img></a>
+          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id="" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
         <div class="portfolio col-sm-6 col-md-4">
-          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id=""></img></a>
+          <a href=""><img src="assets/images/portfolio/placeholderPortfolio.png" class="inner" id="" onmouseover="onHover();" onmouseout="offHover();"></img></a>
         </div>
-      </div>
-
-      
-      
-    </div>
+      </div>  
+    </div> -->
 
 
     <!-- ABOUT ME SECTION -->
@@ -126,7 +156,7 @@
       </div>
     </div>
 
-
+  </div>
 
 
 
@@ -142,6 +172,8 @@
 
 
 <script src="https://use.fontawesome.com/18004f3ee2.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <script src="./assets/js/homescript.js"></script>
     

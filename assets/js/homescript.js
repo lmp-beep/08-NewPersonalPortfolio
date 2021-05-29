@@ -41,3 +41,14 @@ contactBtn.addEventListener("click", function () {
   aboutMeSection.classList.add("hide-about-me");
   contactMeCard.classList.remove("hide-contact-me-form");
 });
+
+
+// function onHover()
+// {
+//     $("#va-sharepoint").attr('src', './assets/images/portfolio/MedicalMediaROLLOVER.png');
+// }
+
+// function offHover()
+// {
+//     $("#va-sharepoint").attr('src', './assets/images/portfolio/ExteriorFrontVertical-WebSize.png');
+// }
