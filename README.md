@@ -7,6 +7,8 @@ To Do List:
 
 Change to LISAPESSIN.com.
 
+Make shadow on splash page more dramatic.
+
 Add photo to About section.
 
 Make Contact Me Form functional.

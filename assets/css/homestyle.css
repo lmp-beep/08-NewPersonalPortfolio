@@ -146,6 +146,10 @@ a.navbar:hover {
   border-radius: 50px;
 }
 
+/* .visit-button:hover {
+  text-decoration: none !important;
+} */
+
 /* ---------------------------ABOUT ME--------------------------- */
 .hide-about-me {
   display: none;
@@ -189,6 +193,7 @@ a.navbar:hover {
 .form-group {
   color: white;
   font-family: "Raleway", sans-serif;
+  text-align: left;
 }
 
 .form-header {

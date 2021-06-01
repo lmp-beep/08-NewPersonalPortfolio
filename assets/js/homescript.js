@@ -43,12 +43,4 @@ contactBtn.addEventListener("click", function () {
 });
 
 
-// function onHover()
-// {
-//     $("#va-sharepoint").attr('src', './assets/images/portfolio/MedicalMediaROLLOVER.png');
-// }
 
-// function offHover()
-// {
-//     $("#va-sharepoint").attr('src', './assets/images/portfolio/ExteriorFrontVertical-WebSize.png');
-// }
