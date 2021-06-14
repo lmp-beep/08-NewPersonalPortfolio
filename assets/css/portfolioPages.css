@@ -19,9 +19,9 @@
         }
       } */
 
-* {
-  margin: 0;
-}
+      body {
+        background-color: #F7F9FB;
+      }
 
 a {
   width: 36%;
@@ -212,7 +212,7 @@ a.navbar:hover {
 } */
 
 .body-info {
-  border: 1px white solid;
+  /* border: 1px white solid; */
   /* border-radius: 20px; */
   margin-left: 150px;
   width: 80%;
@@ -233,7 +233,7 @@ a:hover {
 .visit-btns {
   padding: 10px;
   position: relative;
-  background-color: #fff;
+  background-color: #F7F9FB;
   margin: 10px;
   padding-left: 30%;
 }
