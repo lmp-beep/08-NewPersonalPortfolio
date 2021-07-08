@@ -1,23 +1,3 @@
-/* 
-.container {
-  width: auto;
-  max-width: 680px;
-  padding: 0 15px;
-} */
-
-/* .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      } */
-
-/* @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      } */
 
 body {
   background-color: #F7F9FB;
@@ -136,9 +116,6 @@ a.navbar:hover {
 }
 
 /* ---------------------------PORTFOLIO--------------------------- */
-.hide-portfolio {
-  display: none;
-}
 
 .portfolio.col-sm-6.col-md-4 {
   /* border: #5d5c5d 1px solid; */
@@ -150,111 +127,6 @@ a.navbar:hover {
   text-decoration: none !important;
 } */
 
-/* ---------------------------ABOUT ME--------------------------- */
-.hide-about-me {
-  display: none;
-}
-
-#frame-photo {
-  height: 500px;
-}
-
-.bio {
-  margin-left: 10%;
-}
-
-#bio {
-  margin-top: 10%;
-}
-
-/* ---------------------------CONTACT--------------------------- */
-.hide-contact-me-form {
-  display: none;
-}
-
-.container-fluid.contact {
-  padding-left: 20%;
-  background-color: #ee028d;
-  width: 100%;
-  /* padding-bottom: 80px; */
-}
-
-.card {
-  height: 600px;
-  border: transparent;
-  width: 70%;
-  background-color: #ee028d;
-}
-
-/* .card-body {
-  padding-bottom: 100px;
-} */
-
-.form-group {
-  color: white;
-  font-family: "Raleway", sans-serif;
-  text-align: left;
-}
-
-.form-header {
-  height: 75px;
-  width: 100%;
-  background-color: #ee028d;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 10px;
-  /* box-shadow: 2px 2px 6px rgb(145, 145, 145); */
-  font-family: "Raleway", sans-serif;
-}
-
-.fas.fa-envelope {
-  color: #ffffff;
-}
-
-input[type="text"],
-select.form-control {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid #9e9e9e;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-radius: 0;
-}
-
-input[type="text"]:focus,
-select.form-control:focus {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-bottom: 1px solid #9e9e9e;
-}
-
-::placeholder {
-  font-family: FontAwesome;
-}
-
-textarea:focus {
-  box-shadow: none !important;
-  border-color: #9e9e9e !important;
-}
-
-.submit-button {
-  color: #ffffff;
-  background-color: #af0267;
-  height: 50px;
-  width: 100px;
-  border: none !important;
-  /* box-shadow: 2px 2px 6px rgb(145, 145, 145); */
-}
-
-.submit-button:focus {
-  outline: none;
-}
-
-
-
-
-/* HTML CSSResult Skip Results Iframe
-EDIT ON */
 .grid {
   position: relative;
   margin: 0 auto;
@@ -264,7 +136,6 @@ EDIT ON */
   text-align: center;
 }
 
-/* Common style */
 .grid figure {
   position: relative;
   float: left;
@@ -310,8 +181,6 @@ EDIT ON */
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 /* .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -411,3 +280,79 @@ figure.effect-bubba:hover h2 {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+/* ---------------------------ABOUT ME--------------------------- */
+
+#frame-photo {
+  height: 500px;
+}
+
+.bio {
+  margin-left: 10%;
+}
+
+#bio {
+  margin-top: 5%;
+}
+
+/* ---------------------------CONTACT--------------------------- */
+
+.container-fluid.contact {
+  padding-left: 20%;
+  background-color: #ee028d;
+  width: 90%;
+}
+
+.card {
+  height: 620px;
+  border: transparent;
+  width: 70%;
+  background-color: #ee028d;
+}
+
+.form-group {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.form-header {
+  height: 75px;
+  width: 100%;
+  background-color: #ee028d;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+::placeholder {
+  font-family: FontAwesome;
+}
+
+textarea, .form-control {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+textarea:focus, .form-control:focus {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.submit-button {
+  color: #ffffff;
+  background-color: #af0267;
+  height: 50px;
+  width: 100px;
+  border: none !important;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+
+
+
+
