@@ -1,21 +1,22 @@
-# 08-NewPersonalPortfolio
+<h1 align="center">My Portfolio</h1>
 
-https://lmp-beep.github.io/08-NewPersonalPortfolio/
+Deployed Site => https://lpessin.com/
 
 
-To Do List:
+## To do list: 
 
-Change to LPESSIN.com.
+>* Change photo in About section.
+>* Make Contact Me Form functional.
+>* Update Fitness Tracker Page w new photos
+>* Make Book Search app pretty - then update portfolio page
 
-Make shadow on splash page more dramatic.
+## Add Projects:
+>* Weather Dashboard
+>* Note Taker
+>* Tech Blog
+>* Redux Store
+>* Murdering Green
 
-Add photo to About section.
-
-Make Contact Me Form functional.
-
-Finish my photos page.
-
-Finish tech blog page.
 
 
 
