@@ -4,7 +4,7 @@ Deployed Site => https://lpessin.com/
 
 
 ## To do list: 
-
+>* MOBILE RESPONSIVE
 >* Change photo in About section.
 >* Make Contact Me Form functional.
 >* Update Fitness Tracker Page w new photos
