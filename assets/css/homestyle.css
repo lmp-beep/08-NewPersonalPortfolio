@@ -6,6 +6,7 @@ body {
 img.myLogo {
   width: 80%;
   margin-left: 30%;
+  padding-bottom: 1em;
   /* padding-left: 0; */
 }
 
@@ -117,11 +118,11 @@ a.navbar:hover {
 
 /* ---------------------------PORTFOLIO--------------------------- */
 
-.portfolio.col-sm-6.col-md-4 {
-  /* border: #5d5c5d 1px solid; */
+/* .portfolio.col-sm-6.col-md-4 {
+  border: #5d5c5d 1px solid;
   height: 500px;
   border-radius: 50px;
-}
+} */
 
 /* .visit-button:hover {
   text-decoration: none !important;
@@ -130,10 +131,9 @@ a.navbar:hover {
 .grid {
   position: relative;
   margin: 0 auto;
-  padding: 1em 0 1em;
+  padding: 0 2em 1em 2em;
   max-width: 1000px;
   list-style: none;
-  text-align: center;
 }
 
 .grid figure {
@@ -141,8 +141,8 @@ a.navbar:hover {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 320px;
-  max-width: 479px;
+  min-width: 300px;
+  max-width: 300px;
   max-height: 360px;
   width: 46%;
   background: #3085a3;
@@ -162,7 +162,7 @@ a.navbar:hover {
   /* padding: 2em; */
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.25em;
+  /* font-size: 1.25em; */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -205,13 +205,10 @@ a.navbar:hover {
 
 .grid figure h2 {
   letter-spacing: 1px;
-  /* font-size: 100%; */
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  /* text-align: center; */
-  /* word-spacing: -0.15em;
-  font-weight: 300; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  word-wrap: break-word;
 }
 
 /* figure.effect-bubba img {
@@ -260,7 +257,7 @@ figure.effect-bubba figcaption::after {
 } */
 
 figure.effect-bubba h2 {
-  padding: 150px 2.5em;
+  padding-top: 30%;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;

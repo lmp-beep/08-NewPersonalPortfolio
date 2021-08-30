@@ -29,8 +29,8 @@ a {
 
 img.myLogo {
   width: 80%;
-  margin-left: 20%;
-  padding-left: 0;
+  margin-left: 30%;
+  padding-bottom: 1em;
 }
 
 header {
@@ -44,6 +44,7 @@ a.navbar {
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   letter-spacing: 10px;
+  padding-left: 10px;
 }
 
 a.navbar:hover {
