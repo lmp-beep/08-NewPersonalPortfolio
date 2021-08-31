@@ -33,42 +33,47 @@ a.navbar:hover {
   text-decoration: none;
 }
 
-.main {
-  margin-left: 100px;
+/* .main {
+  margin-left: 50px;
+} */
+
+#github, #linkedin, #photo {
+  text-decoration: none;
+  height: 70px;
+  opacity: 20%;
+  padding: 0 30px 30px 30px;
+  /* padding: 0px 0px 30px 0px; */
 }
 
-#github {
+#github:hover, #linkedin:hover, #photo:hover {
+  opacity: 60%;
+}
+
+.bottom-nav {
+  text-align: center;
+}
+
+/* #linkedin {
   text-decoration: none;
-  height: 75px;
+  height: 50px;
   opacity: 20%;
   padding: 0px 0px 30px 0px;
-}
+} */
 
-#github:hover {
+/* #linkedin:hover {
   opacity: 60%;
-}
+} */
 
-#linkedin {
+/* #photo {
   text-decoration: none;
-  height: 100px;
+  height: 50px;
   opacity: 20%;
-  padding: 30px 0px;
-}
+  padding: 0px 0px 30px 0px;
+} */
 
-#linkedin:hover {
+/* #photo:hover {
   opacity: 60%;
-}
-
-#photo {
-  text-decoration: none;
-  height: 100px;
-  opacity: 20%;
-  padding: 30px 0px;
-}
-
-#photo:hover {
-  opacity: 60%;
-}
+} */
 
 /* #envelope {
   text-decoration: none;
@@ -92,7 +97,7 @@ a.navbar:hover {
   opacity: 60%;
 } */
 
-.sidenav {
+/* .sidenav {
   height: 100%;
   width: 80px;
   position: fixed;
@@ -107,13 +112,14 @@ a.navbar:hover {
   font-size: 25px;
   color: #818181;
   display: block;
-}
+} */
 
 #copyright {
   text-decoration: none;
   color: #8b8b8b;
   font-size: 12px;
-  margin-left: 45%;
+  /* margin-left: 45%; */
+  text-align: center;
 }
 
 /* ---------------------------PORTFOLIO--------------------------- */
